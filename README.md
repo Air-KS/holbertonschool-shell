@@ -1,2 +1,0 @@
-# holbertonschool-shell
-Sans description
