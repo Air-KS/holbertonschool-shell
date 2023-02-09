@@ -35,3 +35,5 @@
 16-clean_emacs "rm *~" - Créez un script qui supprime tous les fichiers du répertoire de travail actuel qui se terminent par le caractère ~.
 
 17-treee "mkdir -p welcome/to/school" - Créez un script qui crée les répertoires welcome/, welcome/to/ et welcome/to/school dans le répertoire courant. Vous n'êtes autorisé à utiliser que deux espaces dans votre script, pas plus.
+
+curl http://www.star.bris.ac.uk/bjm/superman_cluster.gif -o superman_cluster.gif
