@@ -1,2 +1,2 @@
 # holbertonschool-shell
-Le dièse permet d'écrire un titre sur le traitement de texte de Github ??
+4-listmorefiles - Affiche le contenu du répertoire actuel, y compris les fichiers cachés (commençant par .). Utilisez le format long.
