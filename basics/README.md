@@ -2,7 +2,7 @@
 
 0-current_working_directory "pwd" - Écrivez un script qui imprime le nom de chemin absolu du répertoire de travail actuel.
 
-1-listit "ls" - Affiche la liste du contenu de votre répertoire actuel.
+[1-listit](./1-listit) 1-listit "ls" - Affiche la liste du contenu de votre répertoire actuel.
 
 2-bring_me_home "cd" - Écrivez un script qui remplace le répertoire de travail par le répertoire personnel de l'utilisateur. Vous n'êtes pas autorisé à utiliser des variables shell
 
