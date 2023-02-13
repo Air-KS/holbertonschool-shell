@@ -1,0 +1,2 @@
+#!/bin/bash
+Chmod –from=guillaume vincent hello
