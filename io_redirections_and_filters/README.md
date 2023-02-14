@@ -25,3 +25,8 @@ Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shel
 | [9-duplicate_last_line](./9-duplicate_last_line) | `tail -1 iacta >> iacta` | Script qui duplique `La dernière ligne` du fichier `iacta`
 | [10-no_more_js](./10-no_more_js) | `find . -type f -name "*.js" -delete` | Script qui supprime tous les fichiers normaux *Pas les Répertoires* avec une extension `.js` présents dans le répertoire actuel et tous ses sous-dossiers.
 | [11-directories](./11-directories) | `find -mindepth 1 -type d l wc -l` | Script qui compte le nombre de répertoires et de sous-répertoires dans le répertoire courant.
+| [12-newest_files](./12-newest_files) | `ls -t . l head` | Script qui affiche les `10 fichiers` les plus récents du répertoire actuel.
+| [13-unique](./13-unique) | `sort l uniq -u` | Script qui prend une liste de mots en entrée et imprime que les mots qui apparaissent exactement une fois.
+| [14-findthatword](./14-findthatword) | `egrep "root" /etc/passwd` | Afficher les lignes contenant le motif `root` du fichier `/etc/passwd`
+| [15-countthatword](./15-countthatword) | `egrep -c 'bin' /etc/passwd` | Afficher le nombre de lignes contenant le motif `bin` dans le fichier `/etc/passwd`
+| [16-whatsnext](./16-whatsnext) | `grep -A 3 'root' /etc/passwd` | Afficher les lignes contenant le motif `root` et `3 lignes` après celles-ci dans le fichier `/etc/passwd`
