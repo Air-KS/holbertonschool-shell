@@ -30,12 +30,12 @@ Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shel
 | [14-findthatword](./14-findthatword) | `egrep "root" /etc/passwd` | Script qui Afficher les lignes contenant le motif `root` du fichier `/etc/passwd`
 | [15-countthatword](./15-countthatword) | `egrep -c 'bin' /etc/passwd` | Script qui Afficher le nombre de lignes contenant le motif `bin` dans le fichier `/etc/passwd`
 | [16-whatsnext](./16-whatsnext) | `grep -A 3 'root' /etc/passwd` | Script qui Afficher les lignes contenant le motif `root` et `3 lignes` après celles-ci dans le fichier `/etc/passwd`
-| [17-hidethisword](./17-hidethisword) | `grep -A 3 'root' /etc/passwd` | Script qui Affiche toutes les lignes du fichier `/etc/passwd` qui ne contiennent pas le motif `« bin »`.
-| [18-letteronly](./18-letteronly) | `grep -A 3 'root' /etc/passwd` | Script qui Affiche toutes les lignes du fichier `/etc/ssh/sshd_config` commençant par une lettre.
-| [19-AZ](./19-AZ) | `grep -A 3 'root' /etc/passwd` | Script qui Remplacez tous les caractères `A` et `c` de l'entrée par `Z` et `e` respectivement.
-| [20-hiago](./20-hiago) | `grep -A 3 'root' /etc/passwd` | Script qui supprime toutes les lettres `c` et `C` de l'entrée.
-| [21-reverse](./21-reverse) | `grep -A 3 'root' /etc/passwd` | Script qui `Inverse` son entrée.
-| [22-users_and_homes](./22-users_and_homes) | `grep -A 3 'root' /etc/passwd` | Script qui affiche tous les `Utilisateurs` et leurs répertoires personnels, triés par `Utilisateurs`.
-| [23-empty_casks](./23-empty_casks) | `grep -A 3 'root' /etc/passwd` | Script qui trouve tous les fichiers et répertoires vides dans le répertoire courant et tous les sous-répertoires.
-| [24-gifs](./24-gifs) | `grep -A 3 'root' /etc/passwd` | Script qui liste tous les fichiers avec une extension `.gif` dans le répertoire courant et tous ses sous-répertoires.
+| [17-hidethisword](./17-hidethisword) | `grep -v "bin" /etc/passwd` | Script qui Affiche toutes les lignes du fichier `/etc/passwd` qui ne contiennent pas le motif `bin`.
+| [18-letteronly](./18-letteronly) | `grep '^[[:alpha:]]' /etc/ssh/sshd_config` | Script qui Affiche toutes les lignes du fichier `/etc/ssh/sshd_config` commençant par une lettre.
+| [19-AZ](./19-AZ) | `tr Ac Ze` | Script qui Remplacez tous les caractères `A` et `c` de l'entrée par `Z` et `e` respectivement.
+| [20-hiago](./20-hiago) | `tr -d Cc` | Script qui supprime toutes les lettres `c` et `C` de l'entrée.
+| [21-reverse](./21-reverse) | `rev` | Script qui `Inverse` son entrée.
+| [22-users_and_homes](./22-users_and_homes) | `cut -f 1,6 -d ':' /etc/passwd l sort` | Script qui affiche tous les `Utilisateurs` et leurs répertoires personnels, triés par `Utilisateurs`.
+| [23-empty_casks](./23-empty_casks) | `23-empty_casks` | Script qui trouve tous les fichiers et répertoires vides dans le répertoire courant et tous les sous-répertoires.
+| [24-gifs](./24-gifs) | `find . -type f -name "*.gif" l rev l cut -d "/" -f1 l cut -d "." -f2,3 l rev l sort -Vf` | Script qui liste tous les fichiers avec une extension `.gif` dans le répertoire courant et tous ses sous-répertoires.
 | [25-acrostic](./25-acrostic) | `cut -c 1 l paste -s -d ''` | Script qui décode les [Acrostic](https://en.wikipedia.org/wiki/Acrostic). acrostiches utilisant la première lettre de chaque ligne.
