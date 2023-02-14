@@ -1,4 +1,4 @@
-# Shell - Redirections et filtres / Redirections and Filters !
+# Shell - Redirections et filtres / Redirections and Filters
 
 ![](https://www.seeyar.fr/wp-content/uploads/2014/02/linux-shell.webp)
 
