@@ -6,9 +6,12 @@ Projet réalisé dans le cadre de l'école **Holberton School.** Il vise à appr
 * Emacs
 * Vim
 * Script écrits en Bash
-* Tester sur Ubuntu 22.04 LTS
+* Tester sur Ubuntu [22.04 LTS](https://ubuntu.com/download/desktop)
 
 ## Fichiers
+Tous les script de ce projets utilise l'interpreteur [Bash](https://datascientest.com/bash-tout-savoir).
+- `#!/bin/bash`  
+  
 Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shell - Redirections and Filtre
 
 | Nom du Fichier | Commande Utiliser | Description du Fichier |
