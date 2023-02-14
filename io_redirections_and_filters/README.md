@@ -19,4 +19,9 @@ Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shel
 | [3-twofiles](./3-twofiles) | `cat /etc/passwd /etc/hosts` | Script qui Affichez le contenu du fichier `/etc/passwd` et `/etc/hosts`
 | [4-lastlines](./4-lastlines) | `tail /cat/passwd` | Script qui Afficher les `10 dernières lignes` de `/cat/passwd`
 | [5-firstlines](./5-firstlines) | `head /etc/passwd` | Script qui Afficher les 10 premières lignes de `/etc/passwd`
-| [6-third_line](./6-third_line) | `head -n 3 iacta l tail -n 1` | Script qui affiche la troisième ligne du fichier iacta.
+| [6-third_line](./6-third_line) | `head -n 3 iacta l tail -n 1` | Script qui Afficher les 10 premières lignes de `/etc/passwd`
+| [7-file](./7-file) | `echo -e "Best School"  >> "\\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"` | Écrivez un script shell qui crée un fichier nommé exactement `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` contenant le texte Best School se terminant par une nouvelle ligne.
+| [8-cwd_state](./8-cwd_state) | `ls -la >> ls_cwd_content` | Script qui écrit dans le fichier ls_cwd_content le résultat de la commande `ls -la`. Si le fichier `ls_cwd_content` existe déjà, il doit être écrasé. Si le fichier `ls_cwd_content` n'existe pas, Il le crée.
+| [9-duplicate_last_line](./9-duplicate_last_line) | `tail -1 iacta >> iacta` | Script qui duplique `La dernière ligne` du fichier `iacta`
+| [10-no_more_js](./10-no_more_js) | `find . -type f -name "*.js" -delete` | Script qui supprime tous les fichiers normaux *Pas les Répertoires* avec une extension `.js` présents dans le répertoire actuel et tous ses sous-dossiers.
+| [11-directories](./11-directories) | `find -mindepth 1 -type d l wc -l` | Script qui compte le nombre de répertoires et de sous-répertoires dans le répertoire courant.
