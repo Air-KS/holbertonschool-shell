@@ -27,6 +27,14 @@ Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shel
 | [11-directories](./11-directories) | `find -mindepth 1 -type d l wc -l` | Script qui compte le nombre de répertoires et de sous-répertoires dans le répertoire courant.
 | [12-newest_files](./12-newest_files) | `ls -t . l head` | Script qui affiche les `10 fichiers` les plus récents du répertoire actuel.
 | [13-unique](./13-unique) | `sort l uniq -u` | Script qui prend une liste de mots en entrée et imprime que les mots qui apparaissent exactement une fois.
-| [14-findthatword](./14-findthatword) | `egrep "root" /etc/passwd` | Afficher les lignes contenant le motif `root` du fichier `/etc/passwd`
-| [15-countthatword](./15-countthatword) | `egrep -c 'bin' /etc/passwd` | Afficher le nombre de lignes contenant le motif `bin` dans le fichier `/etc/passwd`
-| [16-whatsnext](./16-whatsnext) | `grep -A 3 'root' /etc/passwd` | Afficher les lignes contenant le motif `root` et `3 lignes` après celles-ci dans le fichier `/etc/passwd`
+| [14-findthatword](./14-findthatword) | `egrep "root" /etc/passwd` | Script qui Afficher les lignes contenant le motif `root` du fichier `/etc/passwd`
+| [15-countthatword](./15-countthatword) | `egrep -c 'bin' /etc/passwd` | Script qui Afficher le nombre de lignes contenant le motif `bin` dans le fichier `/etc/passwd`
+| [16-whatsnext](./16-whatsnext) | `grep -A 3 'root' /etc/passwd` | Script qui Afficher les lignes contenant le motif `root` et `3 lignes` après celles-ci dans le fichier `/etc/passwd`
+| [17-hidethisword](./17-hidethisword) | `grep -A 3 'root' /etc/passwd` | Script qui Affiche toutes les lignes du fichier `/etc/passwd` qui ne contiennent pas le motif `« bin »`.
+| [18-letteronly](./18-letteronly) | `grep -A 3 'root' /etc/passwd` | Script qui Affiche toutes les lignes du fichier `/etc/ssh/sshd_config` commençant par une lettre.
+| [19-AZ](./19-AZ) | `grep -A 3 'root' /etc/passwd` | Script qui Remplacez tous les caractères `A` et `c` de l'entrée par `Z` et `e` respectivement.
+| [20-hiago](./20-hiago) | `grep -A 3 'root' /etc/passwd` | Script qui supprime toutes les lettres `c` et `C` de l'entrée.
+| [21-reverse](./21-reverse) | `grep -A 3 'root' /etc/passwd` | Script qui `Inverse` son entrée.
+| [22-users_and_homes](./22-users_and_homes) | `grep -A 3 'root' /etc/passwd` | Script qui affiche tous les `Utilisateurs` et leurs répertoires personnels, triés par `Utilisateurs`.
+| [23-empty_casks](./23-empty_casks) | `grep -A 3 'root' /etc/passwd` | Script qui trouve tous les fichiers et répertoires vides dans le répertoire courant et tous les sous-répertoires.
+| [24-gifs](./24-gifs) | `grep -A 3 'root' /etc/passwd` | Script qui liste tous les fichiers avec une extension `.gif` dans le répertoire courant et tous ses sous-répertoires.
