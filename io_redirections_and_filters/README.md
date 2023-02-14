@@ -1,5 +1,7 @@
 # Shell - Redirections et filtres / Redirections and Filters !
 
+![](https://www.seeyar.fr/wp-content/uploads/2014/02/linux-shell.webp)
+
 Projet réalisé dans le cadre de l'école **Holberton School.** Il vise à apprendre à gérer les entrées et les sorties standard et à combiner des commandes et des filtres avec des redirections dans **Shell**.  
 
 ## Technologies
