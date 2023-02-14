@@ -5,7 +5,7 @@ Projet réalisé dans le cadre de l'école **Holberton School.** Il vise à appr
 ## Technologies
 * [Emacs](https://www.gnu.org/software/emacs/)
 * [Vim](https://doc.ubuntu-fr.org/vim/)
-* Script écrits en Bash
+* Script écrits en [Bash](https://datascientest.com/bash-tout-savoir/)
 * Tester sur Ubuntu [22.04 LTS](https://ubuntu.com/download/desktop/)
 
 ## Fichiers
