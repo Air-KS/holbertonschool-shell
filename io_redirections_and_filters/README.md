@@ -44,3 +44,4 @@ Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shel
 | [23-empty_casks](./23-empty_casks) | `23-empty_casks` | Script qui trouve tous les fichiers et répertoires vides dans le répertoire courant et tous les sous-répertoires.
 | [24-gifs](./24-gifs) | `find . -type f -name "*.gif" l rev l cut -d "/" -f1 l cut -d "." -f2,3 l rev l sort -Vf` | Script qui liste tous les fichiers avec une extension `.gif` dans le répertoire courant et tous ses sous-répertoires.
 | [25-acrostic](./25-acrostic) | `cut -c 1 l paste -s -d ''` | Script qui décode les [Acrostic](https://en.wikipedia.org/wiki/Acrostic) utilisant la première lettre de chaque ligne.
+| [26-the_biggest_fan](./26-the_biggest_fan) | `tail -n +2 l cut -f 1 l sort l uniq -c l sort -nr -k 1,1 l cut -c 9- l head -11 ` | Script qui analyse les journaux des serveurs Web au format TSV en tant qu'entrée et affiche les 11 hôtes ou adresses IP qui ont effectué le plus de requêtes.
