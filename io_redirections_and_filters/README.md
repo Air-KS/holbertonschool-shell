@@ -4,6 +4,13 @@
 
 Projet réalisé dans le cadre de l'école **[Holberton School](https://www.holbertonschool.fr/?utm_source=googleads&utm_medium=cta&gclid=CjwKCAiA_6yfBhBNEiwAkmXy50eX6Dq5EZ7N9KvwnQ9og_Xm7dYtCC2PkdKXvP-tK75zN7BWrIze2BoC1zgQAvD_BwE/).** Il vise à apprendre à gérer les entrées et les sorties standard et à combiner des commandes et des filtres avec des redirections dans **[Shell](http://hautrive.free.fr/linux/page-shell-linux.html)**.  
 
+## Read or watch:
+* [Shell, I/O Redirection](http://linuxcommand.org/lc3_lts0070.php)  
+* [Special Characters](http://mywiki.wooledge.org/BashGuide/SpecialCharacters)  
+
+## Man or Help in terminal
+> echo | cat | head | tail | find | wc | sort | uniq | grep | tr | rev | cut | passwd (5) (*i.e. man 5 passwd*)  
+
 ## Technologies
 * [Emacs](https://www.gnu.org/software/emacs/)
 * [Vim](https://doc.ubuntu-fr.org/vim/)
