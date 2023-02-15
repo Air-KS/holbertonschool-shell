@@ -17,7 +17,7 @@ Tous les script de ce projets utilise l'interpreteur [Bash](https://datascientes
 Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shell - Redirections and Filtre
 
 | Nom du Fichier | Commande Utiliser | Description du Fichier |
-| -------- | ----------- | ----------- |
+| :--------: | :-----------: | :-----------: |
 | [0-hello_world](./0-hello_world) | `echo "Hello, World"` | Script qui affiche `Hello, World`, suivi d'une nouvelle ligne sur la sortie standard |
 | [1-confused_smiley](./1-confused_smiley) | `echo "\"(Ôo)'"` | Script qui affiche un smiley confus `(Ôo)`. |
 | [2-hellofile](./2-hellofile) | `cat /etc/passwd` | Script qui Affichez le contenu du fichier `/etc/passwd`.
