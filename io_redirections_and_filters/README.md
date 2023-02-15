@@ -43,4 +43,4 @@ Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shel
 | [22-users_and_homes](./22-users_and_homes) | `cut -f 1,6 -d ':' /etc/passwd l sort` | Script qui affiche tous les `Utilisateurs` et leurs répertoires personnels, triés par `Utilisateurs`.
 | [23-empty_casks](./23-empty_casks) | `23-empty_casks` | Script qui trouve tous les fichiers et répertoires vides dans le répertoire courant et tous les sous-répertoires.
 | [24-gifs](./24-gifs) | `find . -type f -name "*.gif" l rev l cut -d "/" -f1 l cut -d "." -f2,3 l rev l sort -Vf` | Script qui liste tous les fichiers avec une extension `.gif` dans le répertoire courant et tous ses sous-répertoires.
-| [25-acrostic](./25-acrostic) | `cut -c 1 l paste -s -d ''` | Script qui décode les [Acrostic](https://en.wikipedia.org/wiki/Acrostic/) utilisant la première lettre de chaque ligne.
+| [25-acrostic](./25-acrostic) | `cut -c 1 l paste -s -d ''` | Script qui décode les [Acrostic](https://en.wikipedia.org/wiki/Acrostic) utilisant la première lettre de chaque ligne.
