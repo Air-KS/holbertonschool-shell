@@ -43,5 +43,5 @@ Voici un tableau des scripts et commande utilisé pour l'ensemble du projet Shel
 | [13-print_float](./13-print_float) | `printf "%.2f\n" $NUM` | Script qui imprime un nombre avec deux décimales, suivi d'une nouvelle ligne. Le numéro sera stocké dans la variable d'environnement `NUM`.
 | [14-decimal_to_hexadecimal](./14-decimal_to_hexadecimal) | `printf "%x\n" $DECIMAL` | Script qui convertit un nombre de base 10 en base 16. Le nombre en base 10 est stocké dans la variable d'environnement `DECIMAL`.
 | [15-rot13](./15-rot13) | `tr 'A-Za-z' 'N-ZA-Mn-za-m'` | Script qui encode et décode le texte en utilisant le cryptage rot13. Supposons ASCII.
-| [16-odd](./16-odd) | `paste - - | cut -f1` | Script qui imprime une ligne sur deux à partir de l'entrée, en commençant par la première ligne.
+| [16-odd](./16-odd) | `paste - - l cut -f1` | Script qui imprime une ligne sur deux à partir de l'entrée, en commençant par la première ligne.
 | [17-water_and_stir](./17-water_and_stir) | `printf "%o\n" $(( $((5#$(echo $WATER l tr water 01234))) + $((5#$(echo $STIR l tr stir. 01234))) )) l tr 01234567 bestchol ` | Script *shell* qui additionne les deux nombres stockés dans les variables d'environnement `WATER` et `STIR` et imprime le résultat.
