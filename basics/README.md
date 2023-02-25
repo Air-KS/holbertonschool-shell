@@ -18,14 +18,14 @@
 
 --------------------
 
-### Man or Help in Tzerminal
+### Man or Help
 > cd | ls | pwd | less | file | ln | cp | mv | rm | mkdir | type | which | help | man  
 
 There are many other useful Shell commands, but these basic commands are a good starting point for exploring and using the command-line interface.
 
 --------------------
 
-### Technologies
+### Technology used
 * [Emacs](https://www.gnu.org/software/emacs/)
 * [Vim](https://doc.ubuntu-fr.org/vim/)
 * script written in bash [Bash](https://datascientest.com/bash-tout-savoir/)
